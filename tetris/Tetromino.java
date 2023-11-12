@@ -65,15 +65,15 @@ public class Tetromino {
     
     static {
         try {
-            I = ImageIO.read(new File("src/resources/I.png"));
-            J = ImageIO.read(new File("src/resources/J.png"));
-            L = ImageIO.read(new File("src/resources/L.png"));
-            O = ImageIO.read(new File("src/resources/O.png"));
-            S = ImageIO.read(new File("src/resources/S.png"));
-            Z = ImageIO.read(new File("src/resources/Z.png"));
-            T = ImageIO.read(new File("src/resources/T.png"));            
+            I = ImageIO.read(new File("resources/I.png"));
+            J = ImageIO.read(new File("resources/J.png"));
+            L = ImageIO.read(new File("resources/L.png"));
+            O = ImageIO.read(new File("resources/O.png"));
+            S = ImageIO.read(new File("resources/S.png"));
+            Z = ImageIO.read(new File("resources/Z.png"));
+            T = ImageIO.read(new File("resources/T.png"));            
         } catch (IOException ex) {
-            Logger.getLogger(Tetromino.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Tetromino.class.getName()).log(Level.SEVERE,null, ex);
         }
     }
 }
